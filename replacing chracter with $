@@ -1,0 +1,6 @@
+word1=input("enter any word")
+char=word1[0]
+word=word1.replace(char,'$')
+word=char+word[1:]
+print("before replacement:",word)
+print("after replacement:",word)
